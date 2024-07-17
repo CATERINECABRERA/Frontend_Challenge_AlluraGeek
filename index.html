@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/addProducts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>AluraPlay</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="allura-nav">
+        <p class="allura-nav__emoji">
+            &#10084; &#10084; &#10084;
+        </p>
+        <span class="allura-nav__title">
+            AlluraGeek
+        </span>
+    </nav>
+
+    <section id="allura_nav__layout">
+        <div class="allura_nav__products">
+            <span class="allura_nav__products-title">MIS PRODUCTOS: </span>
+            <div class="products-container" id="products">
+            </div>
+        </div>
+
+        <div class="allura_nav__add_product" id="addProducts">
+            <span class="allura_nav__add_product-title">AGREGAR PRODUCTOS: </span>
+            <div class="allure_nav_form">
+                <input class="allure_nav_form__nombre allure_nav_form__input" placeholder="Nombre ..." type="text">
+                <input class="allure_nav_form__precio allure_nav_form__input" placeholder="Precio ..." type="number">
+                <input class="allure_nav_form__imagen allure_nav_form__input"
+                    placeholder="Ingrese enlace de la imagen ...">
+                <div class="allure_nav_form__acciones">
+                    <button class="allure_nav_form__enviar">Enviar</button>
+                    <button class="allure_nav_form__limpiar">Limpiar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="allura-footer">
+        <section class="allura-footer__first-section">
+            <p class="allura-footer__emoji">
+                &#10084; &#10084; &#10084;
+            </p>
+            <span class="allura-footer__title">
+                AlluraGeek
+            </span>
+        </section>
+        <span class="allura-footer__developed_by">Desarrollado por Caterine Cabrera</span>
+        <span class="allura-footer__course">ALLURA LATAM</span>
+    </footer>
+
+    <script src="./js/showProducts.js" type="module"></script>
+</body>
+
+</html>

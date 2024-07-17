@@ -1,0 +1,93 @@
+.allura_nav__layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.products-container {
+    display: grid;
+    grid-gap: 4em;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    justify-items: center;
+    align-items: start;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top: 20px;
+    overflow-y: auto;
+    height: calc(100vh - 300px);
+}
+
+.allura_nav__products-title {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    padding: 5px;
+    background: #5D04D9;
+}
+
+.product-item__image {
+    width: 140px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.product-item__name {
+    color: #FFFFFF;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+}
+
+.product-item__price {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.product-item__information {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.product-item__price-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.product-item__delete {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.product-item__delete:hover {
+    cursor: pointer;
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .products-container {
+        height: 300px;
+    }
+}

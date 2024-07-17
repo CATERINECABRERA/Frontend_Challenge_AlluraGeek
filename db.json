@@ -1,0 +1,30 @@
+{
+    "productos": [
+        {
+            "name": "Producto 1",
+            "url": "https://images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg",
+            "price": "60,00"
+        },
+        {
+            "name": "Producto 2",
+            "url": "https://fastly.picsum.photos/id/1/200/300.jpg?hmac=jH5bDkLr6Tgy3oAg5khKCHeunZMHq0ehBZr6vGifPLY",
+            "price": "100,00"
+        },
+        {
+            "name": "Producto 3",
+            "url": "https://fastly.picsum.photos/id/635/200/300.webp?hmac=wMGlxxCbtEIz7m0X_oKJIj_XFxw4ed36mmoqDIPkOd0",
+            "price": "400,00"
+        },
+        {
+            "name": "Producto 4",
+            "url": "https://fastly.picsum.photos/id/635/200/300.webp?hmac=wMGlxxCbtEIz7m0X_oKJIj_XFxw4ed36mmoqDIPkOd0",
+            "price": "400,00"
+        },
+        {
+            "name": "Producto 5",
+            "url": "https://fastly.picsum.photos/id/635/200/300.webp?hmac=wMGlxxCbtEIz7m0X_oKJIj_XFxw4ed36mmoqDIPkOd0",
+            "price": "400,00"
+        }
+
+    ]
+}
